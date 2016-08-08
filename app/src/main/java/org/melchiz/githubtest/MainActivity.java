@@ -14,4 +14,8 @@ public class MainActivity extends AppCompatActivity {
     private void upload(){
 
     }
+    
+    private void reload(){
+        
+    }
 }
