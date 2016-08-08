@@ -9,13 +9,19 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        callBoth();
+    }
+
+    private void callBoth() {
+        upload();
+        reload();
     }
 
     private void upload(){
-
+        int x = 9;
     }
     
     private void reload(){
-        
+        int x = 8;
     }
 }
